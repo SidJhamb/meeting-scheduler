@@ -4,25 +4,6 @@ from datetime import date, datetime, timedelta
 
 meetingScheduler = Scheduler()
 
-# Scheduler.init_meeting_scheduler(2, 1)
-#
-# start = datetime.now()
-# end = start + timedelta(hours=3)
-# start1 = start + timedelta(hours = 4)
-# end1 = start + timedelta(hours = 6)
-# start2 = start + timedelta(hours = 8)
-# end2 = start + timedelta(hours = 10)
-#
-#
-# print("1st")
-# meetingScheduler.schedule_meeting(2, TimeInterval(start, end))
-# print("2nd")
-# result = meetingScheduler.schedule_meeting(2, TimeInterval(start1, end1))
-# print("3rd")
-# result = meetingScheduler.schedule_meeting(2, TimeInterval(start2, end2))
-
-#meetingScheduler.cancel_meeting(3, 1)
-
 flag = False
 
 while True:
